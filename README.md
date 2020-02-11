@@ -1,24 +1,13 @@
-# README
+# Fox Books Test App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Run
 
-Things you may want to cover:
+Endpoint #1
 
-* Ruby version
+`GET http://localhost:3000/publishers/1/shops`
 
-* System dependencies
 
-* Configuration
+Endpoint #2
+`POST "/shops/#{shop.id}/book/#{book.id}", params: { sold: 3 }`
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
